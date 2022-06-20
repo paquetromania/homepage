@@ -27,7 +27,6 @@ type RoadProps = {
 }
 
 function Road({ openIssues, closedIssuesCount, error }: RoadProps) {
-
 	return (
 		<Container>
 			<Stack>

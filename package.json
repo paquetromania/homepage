@@ -1,5 +1,6 @@
 {
-  "name": "paquet-homepage",
+  "name": "@paquet/homepage",
+  "author": "paquetromania",
   "version": "0.1.0",
   "private": true,
   "scripts": {
