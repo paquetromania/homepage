@@ -36,9 +36,9 @@ function AboutUs() {
 									Ce este Paquet?
 								</Typography>
 								<Typography>
-									Paquet este o aplicatie care oferă servicii de transport și de livrare. 
-									O aplicatie tânără care vrea să facă pași în a oferi comunităților o 
-									opțiune mai bună. În curând vom adauga mai multe servicii și produse.
+									Paquet este o platforma întreagă de aplicații
+									pentru a susține un ecosistem consistent care te leagă pe
+									tine de comunitatea ta.
 								</Typography>
 							</CardContent>
 						</Card>
@@ -52,11 +52,8 @@ function AboutUs() {
 									Care este planul?
 								</Typography>
 								<Typography>
-									Planul nostru este să oferim servicii cât mai bune și eficiente.
-									Unul dintre principiile noastre cheie este de a fi cât mai fideli
-									și transparenți cu clienții noștri. Noi nu vom colecta date despre
-									clienți, și în niciun caz nu vom vinde informații despre clienți.
-									Clientul pentru noi este de neprețuit.
+									O restructurare recentă ne-a permis să devenim o platformă. Noi țintim să fim
+									o platformă care ajută micile afaceri în a se dezvolta, și pe tine în a le descoperi.
 								</Typography>
 							</CardContent>
 						</Card>

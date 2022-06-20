@@ -40,9 +40,7 @@ function PaquetDelivery() {
 				</Typography>
 				<Typography variant='body1'>
 					Acest serviciu te va ajuta să comanzi mâncare cât mai repede
-                    și cât mai ușor. Noi, spre deosebire de alte servicii
-                    de livrare, nu vom colecta date despre ceea ce comanzi și
-                    unde comanzi.
+                    și cât mai ușor.
 				</Typography>
 			</CardContent>
 		</Card>

@@ -4,6 +4,7 @@ import HomeHeader from "../components/HomeHeader";
 
 import PaquetDelivery from "../components/PaquetDelivery";
 import PaquetRide from "../components/PaquetRide";
+import PaquetHub from "../components/PaquetHub";
 import AboutUs from "../components/AboutUs";
 import PageLinks from "../components/PageLinks";
 import Partners from "../components/Partners";
@@ -33,6 +34,9 @@ const Home: NextPage = () => {
 							marginTop: theme => `-${theme.spacing(2)}!important`
 						}}
 					>
+						<Grid item xs={12} display='flex' flexWrap='wrap'>
+							<PaquetHub />
+						</Grid>
 						<Grid item md={6} xs={12} display='flex' flexWrap='wrap'>
 							<PaquetDelivery />
 						</Grid>

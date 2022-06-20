@@ -24,8 +24,7 @@ function PaquetRide() {
 				<Typography variant='body1'>
 					Mult mai ușor, mult mai simplu și mult mai accesibil. Serviciul nostru
                     de taxi te va ajuta să ajungi la destinația ta, fără să te temi de 
-                    costuri și de țepe. Șoferii noștrii sunt angajați direct de către
-                    noi, iar drumul și costul este procesat în întregime de către noi.
+                    costuri suplimentare și de țepe.
 				</Typography>
 			</CardContent>
 		</Card>

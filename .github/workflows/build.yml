@@ -1,0 +1,30 @@
+name: "Check Homepage"
+
+on:
+  push:
+    branches: [ dev, main ]
+    paths: 
+      - "homepage/**"
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '00 12 * * 0'
+
+
+jobs:
+  check:
+    name: Check Homepage
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: npm i
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build
+        run: npm run build
