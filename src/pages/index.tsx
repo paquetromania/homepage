@@ -9,6 +9,7 @@ import AboutUs from "../components/AboutUs";
 import PageLinks from "../components/PageLinks";
 import Partners from "../components/Partners";
 import SponsorCard from "../components/SponsorCard";
+import Apps from "../components/Apps";
 
 const Home: NextPage = () => {
 	return (
@@ -44,6 +45,8 @@ const Home: NextPage = () => {
 							<PaquetRide />
 						</Grid>
 					</Grid>
+					<Divider sx={{ width: "75%", alignSelf: "center" }}/>
+					<Apps />
 					<Divider sx={{ width: "75%", alignSelf: "center" }}/>
 					<SponsorCard />
 					<Divider sx={{ width: "75%", alignSelf: "center" }}/>
