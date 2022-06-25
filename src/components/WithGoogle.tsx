@@ -1,21 +1,17 @@
 import { Card, CardContent, CardMedia, Typography } from "@mui/material";
+import { Google as GoogleIcon } from "@mui/icons-material";
 import RideSVG from "../resources/ride.svg";
 import { Parallax } from "react-scroll-parallax";
 
 
 
-function PaquetRide() {
+function WithGoogle() {
 	return (
 		<Card>		
 			<CardMedia
-				component={Parallax}
 				title='Ride'
-				scale={[.8, 1]}
 			>
-				<RideSVG 
-					width='100%'
-					height={300}
-				/>
+				<GoogleIcon />
 			</CardMedia>
 			<CardContent>
 				<Typography variant='h5'>
@@ -31,4 +27,4 @@ function PaquetRide() {
 	);
 }
 
-export default PaquetRide;
+export default WithGoogle;

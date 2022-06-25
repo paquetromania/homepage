@@ -29,24 +29,19 @@ const Home: NextPage = () => {
 					<Grid
 						container
 						spacing={2}
-						direction='row'
+						direction='column'
 						sx={{
 							marginLeft: theme => `-${theme.spacing(2)}!important`,
 							marginTop: theme => `-${theme.spacing(2)}!important`
 						}}
 					>
-						<Grid item xs={12} display='flex' flexWrap='wrap'>
-							<PaquetHub />
-						</Grid>
-						<Grid item md={6} xs={12} display='flex' flexWrap='wrap'>
+						<Grid item display='flex' flexWrap='wrap'>
 							<PaquetDelivery />
 						</Grid>
-						<Grid item md={6} xs={12} display='flex' flexWrap='wrap'>
-							<PaquetRide />
+						<Grid item display='flex' flexWrap='wrap'>
+							<WithGoogle />
 						</Grid>
 					</Grid>
-					<Divider sx={{ width: "75%", alignSelf: "center" }}/>
-					<Apps />
 					<Divider sx={{ width: "75%", alignSelf: "center" }}/>
 					<SponsorCard />
 					<Divider sx={{ width: "75%", alignSelf: "center" }}/>
@@ -55,7 +50,6 @@ const Home: NextPage = () => {
 					<PageLinks />
 				</Stack>
 			</Container>
-			<AboutUs />
 		</>
 	);
 };

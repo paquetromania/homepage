@@ -36,9 +36,8 @@ function AboutUs() {
 									Ce este Paquet?
 								</Typography>
 								<Typography>
-									Paquet este o platforma întreagă de aplicații
-									pentru a susține un ecosistem consistent care te leagă pe
-									tine de comunitatea ta.
+								Paquet este un serviciu de livrare făcut de comunitate pentru comunitate.
+								Un serviciu simplu și ușor de folosit, pentru toatăs lumea.
 								</Typography>
 							</CardContent>
 						</Card>

@@ -1,6 +1,6 @@
 import { List, ListItemButton, ListItemIcon, ListItemText, ListSubheader, Paper } from "@mui/material";
 import {
-	AssignmentTurnedIn as RoadIcon,
+	Call as ContactIcon,
 	Favorite as HeartIcon
 } from "@mui/icons-material";
 import Link from "next/link";
@@ -18,17 +18,16 @@ function PageLinks() {
 			}
 		>
 			<Link
-				href='/drum'
-				shallow
+				href='/contact'
 				passHref
 			>
 				<ListItemButton>
 					<ListItemIcon>
-						<RoadIcon />
+						<ContactIcon />
 					</ListItemIcon>
 					<ListItemText 
-						primary="Drumul nostru"
-						secondary="Ce mai avem de facut la Paquet"
+						primary="Contact"
+						secondary="Contacteaza-ne"
 					/>
 				</ListItemButton>
 			</Link>
