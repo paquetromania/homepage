@@ -8,7 +8,7 @@ function HomeHeader() {
 	return (
 		<ParallaxBanner
 			style={{
-				height: window.screen.height / 3 * 2,
+				height: "75vh",
 				width: "100%"
 			}}
 			layers={[
