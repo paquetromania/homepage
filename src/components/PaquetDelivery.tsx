@@ -7,7 +7,11 @@ import { ParallaxBanner } from "react-scroll-parallax";
 
 function PaquetDelivery() {
 	return (
-		<Card>
+		<Card
+			sx={{
+				width: "100%"
+			}}
+		>
 			<CardMedia
 				title='Delivery'
 				component={ParallaxBanner}
@@ -36,11 +40,11 @@ function PaquetDelivery() {
 			/>
 			<CardContent>
 				<Typography variant='h5'>
-					Paquet Delivery
+					Livrare rapidă
 				</Typography>
 				<Typography variant='body1'>
-					Acest serviciu te va ajuta să comanzi mâncare cât mai repede
-                    și cât mai ușor.
+					Îți aducem orice mâncare ai chef rapid și ușor.
+					Un serviciu de comunitate pentru comunitate.
 				</Typography>
 			</CardContent>
 		</Card>

@@ -3,13 +3,9 @@ import { Container, Typography, Divider, Stack, Grid } from "@mui/material";
 import HomeHeader from "../components/HomeHeader";
 
 import PaquetDelivery from "../components/PaquetDelivery";
-import PaquetRide from "../components/PaquetRide";
-import PaquetHub from "../components/PaquetHub";
-import AboutUs from "../components/AboutUs";
 import PageLinks from "../components/PageLinks";
 import Partners from "../components/Partners";
 import SponsorCard from "../components/SponsorCard";
-import Apps from "../components/Apps";
 
 const Home: NextPage = () => {
 	return (
@@ -26,22 +22,7 @@ const Home: NextPage = () => {
 					>
 						Ce vrem sa oferim
 					</Typography>
-					<Grid
-						container
-						spacing={2}
-						direction='column'
-						sx={{
-							marginLeft: theme => `-${theme.spacing(2)}!important`,
-							marginTop: theme => `-${theme.spacing(2)}!important`
-						}}
-					>
-						<Grid item display='flex' flexWrap='wrap'>
-							<PaquetDelivery />
-						</Grid>
-						<Grid item display='flex' flexWrap='wrap'>
-							<WithGoogle />
-						</Grid>
-					</Grid>
+					<PaquetDelivery />
 					<Divider sx={{ width: "75%", alignSelf: "center" }}/>
 					<SponsorCard />
 					<Divider sx={{ width: "75%", alignSelf: "center" }}/>
