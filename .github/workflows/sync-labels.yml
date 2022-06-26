@@ -13,6 +13,6 @@ jobs:
 
           delete-other-labels: true
 
-          dry-run: true
+          dry-run: false
 
           token: ${{ secrets.GITHUB_TOKEN }}
