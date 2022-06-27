@@ -1,12 +1,7 @@
-import type { NextPage } from "next";
-import { Container, Typography, Divider, Stack, Grid } from "@mui/material";
-import HomeHeader from "../components/HomeHeader";
-
-import PaquetDelivery from "../components/PaquetDelivery";
 import PageLinks from "../components/PageLinks";
 import Partners from "../components/Partners";
 import SponsorCard from "../components/SponsorCard";
-
+import Apps from "../components/Apps";
 const Home: NextPage = () => {
 	return (
 		<>
@@ -22,7 +17,27 @@ const Home: NextPage = () => {
 					>
 						Ce vrem sa oferim
 					</Typography>
-					<PaquetDelivery />
+					<Grid
+						container
+						spacing={2}
+						direction='row'
+						sx={{
+							marginLeft: theme => `-${theme.spacing(2)}!important`,
+							marginTop: theme => `-${theme.spacing(2)}!important`
+						}}
+					>
+						<Grid item xs={12} display='flex' flexWrap='wrap'>
+							<PaquetHub />
+						</Grid>
+						<Grid item md={6} xs={12} display='flex' flexWrap='wrap'>
+							<PaquetDelivery />
+						</Grid>
+						<Grid item md={6} xs={12} display='flex' flexWrap='wrap'>
+							<PaquetRide />
+						</Grid>
+					</Grid>
+					<Divider sx={{ width: "75%", alignSelf: "center" }}/>
+					<Apps />
 					<Divider sx={{ width: "75%", alignSelf: "center" }}/>
 					<SponsorCard />
 					<Divider sx={{ width: "75%", alignSelf: "center" }}/>
@@ -34,11 +49,3 @@ const Home: NextPage = () => {
 		</>
 	);
 };
-
-export async function getStaticProps() {
-	return {
-		props: {}
-	};
-}
-
-export default Home;
