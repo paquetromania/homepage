@@ -1,9 +1,9 @@
+import { Grid, Container, Typography, Divider, Stack } from "@mui/material";
 import PageLinks from "../components/PageLinks";
 import Partners from "../components/Partners";
 import SponsorCard from "../components/SponsorCard";
 import Apps from "../components/Apps";
 import HomeHeader from "../components/HomeHeader";
-import { Container, Stack, Typography, Grid, Divider } from "@mui/material";
 import PaquetHub from "../components/PaquetHub";
 import PaquetDelivery from "../components/PaquetDelivery";
 import PaquetRide from "../components/PaquetRide";

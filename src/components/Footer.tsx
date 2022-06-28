@@ -63,6 +63,16 @@ function Footer() {
 						))}
 					</Stack>
 					<NextLink
+						href='/drum'
+						passHref
+					>
+						<Link
+							color='white'
+						>
+							Drumul nostru
+						</Link>
+					</NextLink>
+					<NextLink
 						href='/contact'
 						passHref
 					>
