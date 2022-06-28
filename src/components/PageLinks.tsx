@@ -32,20 +32,6 @@ function PageLinks() {
 					/>
 				</ListItemButton>
 			</Link>
-			<Link
-				href='/drum'
-				passHref
-			>
-				<ListItemButton>
-					<ListItemIcon>
-						<ContactIcon />
-					</ListItemIcon>
-					<ListItemText 
-						primary="Contact"
-						secondary="Contacteaza-ne"
-					/>
-				</ListItemButton>
-			</Link>
 		</List>
 	);
 }

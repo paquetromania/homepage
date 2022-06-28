@@ -49,8 +49,6 @@ const Home = () => {
 					<SponsorCard />
 					<Divider sx={{ width: "75%", alignSelf: "center" }}/>
 					<Partners />
-					<Divider sx={{ width: "75%", alignSelf: "center" }}/>
-					<PageLinks />
 				</Stack>
 			</Container>
 		</>
