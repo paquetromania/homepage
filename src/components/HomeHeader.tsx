@@ -47,7 +47,7 @@ function HomeHeader() {
 								Paquet
 							</Typography>
 							<Typography color='white'>
-								Aducem comunitatea mai aproape
+								La revedere 👋
 							</Typography>
 						</Box>
 					),

@@ -4,10 +4,7 @@ import Head from "next/head";
 import { ParallaxProvider } from "react-scroll-parallax";
 import { CssBaseline, ThemeProvider, useMediaQuery } from "@mui/material";
 import { darkTheme, lightTheme } from "../lib/theme";
-import Footer from "../components/Footer";
 import { useRouter } from "next/router";
-import TopBar from "../components/TopBar";
-import NextNProgress from "nextjs-progressbar";
 
 function MyApp({ Component, pageProps }: AppProps) {
 	const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
@@ -31,17 +28,8 @@ function MyApp({ Component, pageProps }: AppProps) {
 			</Head>
 			<ThemeProvider theme={prefersDarkMode ? darkTheme : lightTheme}>
 				<CssBaseline enableColorScheme/>
-				<NextNProgress
-					color={lightTheme.palette.primary.main}
-					height={2}
-					options={{
-						showSpinner: false
-					}}
-				/>	
 				<ParallaxProvider>
-					{router.pathname !== "/" && <TopBar />}
 					<Component {...pageProps} />
-					<Footer />
 				</ParallaxProvider>
 			</ThemeProvider>
 		</>
